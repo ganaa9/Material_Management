@@ -1,6 +1,7 @@
 specVersion: "2.1"
 metadata:
   name: material_management
+  schema: schemas/ui5.yaml.json  # Chemin vers le schéma local
 type: application
 resources:
   - source: webapp
