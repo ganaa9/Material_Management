@@ -1,7 +1,25 @@
 <mvc:View
-  controllerName="material_management.controller.App"
-  xmlns:mvc="sap.ui.core.mvc"
-  xmlns="sap.m"
-  displayBlock="true">
-  <App id="app"/>
+    controllerName="material_management.controller.App"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns="sap.m">
+  <App id="app">
+    <pages>
+      <Page title="Material List">
+        <List id="materialList"
+              items="{
+                path: '/MARASet',
+                templateShareable: true
+              }">
+          <items>
+            <ObjectListItem title="{Matnr}" number="{Maktx}">
+              <attributes>
+                <ObjectAttribute text="{Mtart}" />
+                <ObjectAttribute text="{Meins}" />
+              </attributes>
+            </ObjectListItem>
+          </items>
+        </List>
+      </Page>
+    </pages>
+  </App>
 </mvc:View>
