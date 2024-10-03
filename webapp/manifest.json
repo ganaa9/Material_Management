@@ -14,7 +14,7 @@
           "type": "OData",
           "settings": {
             "odataVersion": "2.0",
-            "localUri": "localService/metadata.xml"
+            "localUri": "localService/metadata.xml" // Assurez-vous que ce fichier existe
           }
         }
       }
@@ -50,7 +50,7 @@
       "resources": {
         "css": [
           {
-            "uri": "css/style.css"
+            "uri": "css/style.css" // Assurez-vous que ce fichier existe
           }
         ]
       },
@@ -74,11 +74,11 @@
         ],
         "targets": {
           "main": {
-            "viewName": "Main",
+            "viewName": "Main", 
             "viewLevel": 1
           },
           "notFound": {
-            "viewName": "NotFound"
+            "viewName": "NotFound" 
           }
         }
       }
