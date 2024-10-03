@@ -1,15 +1,11 @@
 {
   "name": "material_management",
   "version": "1.0.0",
-  "description": "A SAP Fiori UI5 application for managing materials.",
-  "main": "index.js",
+  "private": true,
   "scripts": {
     "start": "ui5 serve"
   },
   "dependencies": {
-  
-  },
-  "devDependencies": {
-   
+    "@ui5/cli": "^2.0.0"
   }
 }
