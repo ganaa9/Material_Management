@@ -1,1 +1,32 @@
-hello
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Material Management App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- UI5 Bootstrap -->
+    <script id="sap-ui-bootstrap"
+            src="https://openui5.hana.ondemand.com/resources/sap-ui-core.js"
+            data-sap-ui-theme="sap_belize"
+            data-sap-ui-libs="sap.m,sap.ui.core,sap.f"
+            data-sap-ui-async="true"
+            data-sap-ui-compatVersion="edge">
+    </script>
+
+    <!-- Définir le chemin de votre application -->
+    <script>
+        sap.ui.getCore().attachInit(function () {
+            // Lancer votre application après que la bibliothèque UI5 soit chargée
+            new sap.m.Shell({
+                app: new sap.ui.core.ComponentContainer({
+                    name: "material_management"
+                })
+            }).placeAt("content");
+        });
+    </script>
+</head>
+
+<body class="sapUiBody" id="content">
+</body>
+</html>
