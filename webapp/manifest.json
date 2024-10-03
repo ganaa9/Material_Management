@@ -10,11 +10,11 @@
       "description": "A SAP Fiori UI5 application for managing materials.",
       "dataSources": {
         "mainService": {
-          "uri": "/sap/opu/odata/sap/ZMARA_SRV/",  // Modifiez selon votre service OData
+          "uri": "/sap/opu/odata/sap/ZMARA_SRV/", 
           "type": "OData",
           "settings": {
             "odataVersion": "2.0",
-            "localUri": "localService/metadata.xml"  // Définit un fichier local pour les métadonnées lors du développement
+            "localUri": "localService/metadata.xml"  
           }
         }
       }
