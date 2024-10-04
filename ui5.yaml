@@ -1,4 +1,7 @@
-specVersion: "4.0"
+specVersion: "2.0"
 metadata:
   name: material_management
-type: application
+  type: application
+resources:
+  - src: webapp
+    destination: <your-destination>

@@ -1,7 +1,0 @@
-specVersion: "2.1"
-metadata:
-  name: material_management
-type: application
-resources:
-  - source: webapp
-    destination: /
